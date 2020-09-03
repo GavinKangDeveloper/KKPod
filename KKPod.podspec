@@ -16,11 +16,12 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
       'KKPod' => ['KKPod/Assets/*.xcassets']
   }
-  s.subspec 'Classes' do |ss|
+  
+  s.subspec 'UIKit' do |ss|
       ss.source_files = 'KKPod/Classes/UIKit/*.{h,m}'
   end
   
-  s.subspec 'Classes' do |ss|
+  s.subspec 'Category' do |ss|
       ss.source_files = 'KKPod/Classes/Category/*.{h,m}'
   end
 
