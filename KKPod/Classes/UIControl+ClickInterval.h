@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIControl (ClickInterval)
 /// 点击事件响应的时间间隔
 @property (nonatomic, assign) NSTimeInterval clickInterval;
+/// 交换点击方法
 + (void)exchangeClickMethod;
 @end
 
