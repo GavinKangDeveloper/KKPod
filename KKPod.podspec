@@ -13,9 +13,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://juejin.im/user/1433418895468397/posts'
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.resource_bundles = {
-      'KKPod' => ['KKPod/Assets/*.xcassets']
-  }
   
   s.subspec 'UIKit' do |ss|
       ss.source_files = 'KKPod/Classes/UIKit/*.{h,m}'
