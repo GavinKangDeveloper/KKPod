@@ -24,6 +24,9 @@
 		30CCB5AD6AA40813DFC189268286F3B5 /* Pods-KKPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADFF723D588D3BBFF64ED612DF0561E /* Pods-KKPod_Tests-dummy.m */; };
 		324FDF29250097EC006807FB /* UIControl+ClickInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = 324FDF27250097EC006807FB /* UIControl+ClickInterval.h */; };
 		324FDF2A250097EC006807FB /* UIControl+ClickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FDF28250097EC006807FB /* UIControl+ClickInterval.m */; };
+		324FDF2C2500DB78006807FB /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324FDF2B2500DB78006807FB /* Image.xcassets */; };
+		324FDF312500DE91006807FB /* KKTempView.h in Headers */ = {isa = PBXBuildFile; fileRef = 324FDF2F2500DE91006807FB /* KKTempView.h */; };
+		324FDF322500DE91006807FB /* KKTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FDF302500DE91006807FB /* KKTempView.m */; };
 		6773151F64687D6A368FDB8D762A9D77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6B3A6B81645B51D2F04AA6F62F27DA1B /* Pods-KKPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85B57EBE992D8FB782445F9678182DA /* Pods-KKPod_Example-dummy.m */; };
 		A6AC8B1EE20E3668C106482AC0270A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -57,6 +60,9 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		324FDF27250097EC006807FB /* UIControl+ClickInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ClickInterval.h"; sourceTree = "<group>"; };
 		324FDF28250097EC006807FB /* UIControl+ClickInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ClickInterval.m"; sourceTree = "<group>"; };
+		324FDF2B2500DB78006807FB /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		324FDF2F2500DE91006807FB /* KKTempView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKTempView.h; sourceTree = "<group>"; };
+		324FDF302500DE91006807FB /* KKTempView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTempView.m; sourceTree = "<group>"; };
 		3F5C4DF8DD091FAD905B6BDB93F8387F /* Pods-KKPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPod_Tests.modulemap"; sourceTree = "<group>"; };
 		63C54062079E1E021E6A25CAD6EB0337 /* Pods-KKPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8093EE3712AB363EAC09E69636619314 /* Pods-KKPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -121,6 +127,7 @@
 		324FDF212500969A006807FB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				324FDF2B2500DB78006807FB /* Image.xcassets */,
 			);
 			name = Assets;
 			path = KKPod/Assets;
@@ -129,11 +136,29 @@
 		324FDF232500969A006807FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				324FDF27250097EC006807FB /* UIControl+ClickInterval.h */,
-				324FDF28250097EC006807FB /* UIControl+ClickInterval.m */,
+				324FDF332500DF61006807FB /* Category */,
+				324FDF2E2500DE7F006807FB /* UIKit */,
 			);
 			name = Classes;
 			path = KKPod/Classes;
+			sourceTree = "<group>";
+		};
+		324FDF2E2500DE7F006807FB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				324FDF2F2500DE91006807FB /* KKTempView.h */,
+				324FDF302500DE91006807FB /* KKTempView.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		324FDF332500DF61006807FB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				324FDF27250097EC006807FB /* UIControl+ClickInterval.h */,
+				324FDF28250097EC006807FB /* UIControl+ClickInterval.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		338671264373771339BF4C37406523E8 /* Pods-KKPod_Example */ = {
@@ -240,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				324FDF29250097EC006807FB /* UIControl+ClickInterval.h in Headers */,
+				324FDF312500DE91006807FB /* KKTempView.h in Headers */,
 				19FD1E98B572B2DA2BC6C23167265865 /* Pods-KKPod_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324FDF2C2500DB78006807FB /* Image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +373,7 @@
 			files = (
 				6B3A6B81645B51D2F04AA6F62F27DA1B /* Pods-KKPod_Example-dummy.m in Sources */,
 				324FDF2A250097EC006807FB /* UIControl+ClickInterval.m in Sources */,
+				324FDF322500DE91006807FB /* KKTempView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

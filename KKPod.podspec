@@ -13,6 +13,17 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://juejin.im/user/1433418895468397/posts'
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.source_files = 'KKPod/Classes/*.{h,m}'
-  s.public_header_files = 'KKPod/Classes/*.h'
+  s.resource_bundles = {
+      'KKPod' => ['KKPod/Assets/*.xcassets']
+  }
+  s.subspec 'Classes' do |ss|
+      ss.source_files = 'KKPod/Classes/UIKit/*.{h,m}'
+  end
+  
+  s.subspec 'Classes' do |ss|
+      ss.source_files = 'KKPod/Classes/Category/*.{h,m}'
+  end
+
+
+  
 end
