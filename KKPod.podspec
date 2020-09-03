@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://juejin.im/user/1433418895468397/posts'
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
-  s.source_files = 'KKPod/Classes/**/*'
-  s.public_header_files = 'KKPod/Classes/**/*.h'
+  s.source_files = 'KKPod/Classes/*.{h,m}'
+  s.public_header_files = 'KKPod/Classes/*.h'
 end

@@ -55,8 +55,6 @@
 		26F1C019A0C7B27E925564B16811EEA2 /* Pods-KKPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EA4FFFDABE668FB93A91004E9E153C8 /* Pods-KKPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		324FDF222500969A006807FB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		324FDF242500969A006807FB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		324FDF27250097EC006807FB /* UIControl+ClickInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ClickInterval.h"; sourceTree = "<group>"; };
 		324FDF28250097EC006807FB /* UIControl+ClickInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ClickInterval.m"; sourceTree = "<group>"; };
 		3F5C4DF8DD091FAD905B6BDB93F8387F /* Pods-KKPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKPod_Tests.modulemap"; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 		324FDF212500969A006807FB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				324FDF222500969A006807FB /* .gitkeep */,
 			);
 			name = Assets;
 			path = KKPod/Assets;
@@ -134,7 +131,6 @@
 			children = (
 				324FDF27250097EC006807FB /* UIControl+ClickInterval.h */,
 				324FDF28250097EC006807FB /* UIControl+ClickInterval.m */,
-				324FDF242500969A006807FB /* .gitkeep */,
 			);
 			name = Classes;
 			path = KKPod/Classes;
